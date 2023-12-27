@@ -1,0 +1,25 @@
+
+.footer {
+  width: 100%;
+  .container{
+    display: flex;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 72px;
+    align-self: stretch;
+    div{
+      flex: 1 1 0;
+      form{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        input[type=email]{
+          flex-grow: 4;
+        }
+      }
+    }
+  }
+}
