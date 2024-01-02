@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"../slices/index.js -> ./Features\":{\"id\":\"../slices/index.js -> ./Features\",\"files\":[\"static/chunks/slices_Features_index_js.js\"]},\"../slices/index.js -> ./Hero\":{\"id\":\"../slices/index.js -> ./Hero\",\"files\":[\"static/chunks/slices_Hero_index_js.js\"]}}"

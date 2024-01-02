@@ -1,0 +1,24 @@
+{
+  "id": "node_types",
+  "label": "Node types",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "name",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

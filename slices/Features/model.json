@@ -1,0 +1,139 @@
+{
+  "id": "feature",
+  "type": "SharedSlice",
+  "name": "Features",
+  "description": "Feature",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "coffe_bar_feature_image": {
+          "type": "Image",
+          "config": {
+            "label": "Coffee bar image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "coffee_bar_headline": {
+          "type": "Text",
+          "config": {
+            "label": "Coffee bar headline",
+            "placeholder": ""
+          }
+        },
+        "coffee_bar_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Coffee bar description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading5,strong,em,hyperlink,image,embed,list-item,o-list-item"
+          }
+        },
+        "coffee_bar_link": {
+          "type": "Link",
+          "config": {
+            "label": "Coffee bar Link",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "select": null
+          }
+        },
+        "coffee_bar_link_text": {
+          "type": "Text",
+          "config": {
+            "label": "Coffee bar link text",
+            "placeholder": ""
+          }
+        },
+        "subscription_image": {
+          "type": "Image",
+          "config": {
+            "label": "Subscription image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "subscription_headline": {
+          "type": "Text",
+          "config": {
+            "label": "Subscription headline",
+            "placeholder": ""
+          }
+        },
+        "subscription_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Subscription description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "subscription_link": {
+          "type": "Link",
+          "config": {
+            "label": "Subscription link",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "select": null
+          }
+        },
+        "subscription_link_text": {
+          "type": "Text",
+          "config": {
+            "label": "Subscription link text",
+            "placeholder": ""
+          }
+        },
+        "app_headline": {
+          "type": "Text",
+          "config": {
+            "label": "App headline",
+            "placeholder": ""
+          }
+        },
+        "app_image": {
+          "type": "Image",
+          "config": {
+            "label": "App image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "app_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "App description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "app_link": {
+          "type": "Link",
+          "config": {
+            "label": "App link",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "select": null
+          }
+        },
+        "app_link_text": {
+          "type": "Text",
+          "config": {
+            "label": "App link text",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
