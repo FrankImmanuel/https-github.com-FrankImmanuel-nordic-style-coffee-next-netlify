@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Footer from '@components/Footer'
 import Navigation from '@components/Navigation'
-import Image from 'next/image'
 import { createClient } from '../prismicio'
 import { SliceZone } from "@prismicio/react";
 import { components } from "../slices";

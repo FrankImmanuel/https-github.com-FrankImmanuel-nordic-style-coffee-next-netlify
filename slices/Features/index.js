@@ -10,8 +10,8 @@ import { PrismicRichText } from "@prismicio/react";
 const Feature = ({ slice }) => {
   return (
     <div className='container-fluid pb-5 mb-5'>
-      <div className='row'>
-        <div className="features-container col-4">
+      <div className='row '>
+        <div className="features-container col-12 col-md-4">
           <div className="start">
             {isFilled.image(slice.primary.coffe_bar_feature_image) && (
               <PrismicNextImage
@@ -40,7 +40,7 @@ const Feature = ({ slice }) => {
             </PrismicNextLink>
           </div>
         </div>
-        <div className="features-container col-4">
+        <div className="features-container col-12 col-md-4">
           <div className="start">
           {isFilled.image(slice.primary.subscription_image) && (
               <PrismicNextImage
@@ -69,7 +69,7 @@ const Feature = ({ slice }) => {
             </PrismicNextLink>
           </div>
         </div>
-        <div className="features-container col-4">
+        <div className="features-container col-12 col-md-4">
           <div className="start">
           {isFilled.image(slice.primary.app_image) && (
               <PrismicNextImage
