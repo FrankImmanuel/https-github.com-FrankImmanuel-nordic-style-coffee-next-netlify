@@ -10,7 +10,6 @@ export default function Home({ page }) {
   console.log(page.data);
   
   return (
-    <>
     <div className="container-fluid">
       <Head>
         <title>Next.js Starter!</title>
@@ -22,7 +21,6 @@ export default function Home({ page }) {
       </main>
       <Footer /> 
     </div>
-    </>
   )
 }
 export async function getStaticProps({ previewData }) {
