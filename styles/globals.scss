@@ -74,7 +74,6 @@ body {
   font-family: ivystyle-sans, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: fit-content;
 }
 
 * {
@@ -279,9 +278,9 @@ footer{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    flex: 1 1 0px;
     width: 100%;
     min-height: 400px;
+    flex: 1 1 auto;
     img{
       max-width: 100%;
       border-radius: 22px;

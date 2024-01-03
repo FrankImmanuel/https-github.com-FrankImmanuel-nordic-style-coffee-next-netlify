@@ -4,7 +4,7 @@ export default function Footer() {
   return (
 
     <footer className={styles.footer}>
-      <div className={styles.container + " " + "container"}>
+      <div className={styles.container + " " + "container  flex-md-row flex-column"}>
         <div>
           <div>
             <svg className='mb-3' xmlns="http://www.w3.org/2000/svg" width="255" height="33" viewBox="0 0 255 33" fill="none">
